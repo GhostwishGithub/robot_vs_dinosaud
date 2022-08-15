@@ -6,8 +6,8 @@ class Battlefield:
     def __init__(self):
         health = random.randrange(99, 151)
         attack = random.randrange(9, 16)
-        self.robot = Robot('Dinosaur Killer 9000', random.randrange(99, 151), random.randrange(9, 16))
-        self.dinosaur = Dinosaur('Roarface', random.randrange(99, 151), random.randrange(9, 16))
+        self.robot = Robot('Dinosaur Killer 9000', random.randrange(99, 151), 1)
+        self.dinosaur = Dinosaur('Roarface', random.randrange(99, 151), random.randrange(9, 28))
         self.winner = 'JJ'
 
     def run_game(self):
