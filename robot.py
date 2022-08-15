@@ -3,3 +3,6 @@ class Robot:
         self.name = name
         self.health = health
         self.active_weapon = active_weapon
+
+    def attack(self, dinosaur):
+        pass
